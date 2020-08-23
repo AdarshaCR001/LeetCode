@@ -4,12 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 //@SpringBootApplication
-public class LeetcodeApplication {
+public class LeetcodeApplication
+{
+    public static void main(String[] args)
+    {
+        //SpringApplication.run(LeetcodeApplication.class, args);
 
-	public static void main(String[] args) {
-		//SpringApplication.run(LeetcodeApplication.class, args);
-
-		System.out.println("Hello wolrd");
-	}
-
+        System.out.println("Hello wolrd");
+    }
 }
